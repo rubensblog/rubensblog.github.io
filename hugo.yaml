@@ -1,0 +1,188 @@
+baseURL: ''
+languageCode: en-us
+title: Ruben's Blog
+# theme: ["PaperMod"]
+theme: 'PaperMod'
+# theme: 'ananke'
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+# googleAnalytics: 
+enableEmoji: true
+
+defaultContentLanguage: de
+defaultContentLanguageInSubdir: true
+languages:
+  de:
+    contentDir: content/de
+    disabled: false
+    languageCode: de-DE
+    languageDirection: ltr
+    languageName: Deutsch
+    params:
+      subtitle: Mein Leben davor - Der Anfang einer neuen Geschichte.
+    title: Ruben's Blog
+    weight: 1
+  en:
+    contentDir: content/en
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    params:
+      subtitle: My Life Before - The Beginning of a New Story.
+    title: Ruben's Blog
+    weight: 2
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: ExampleSite
+  description: "ExampleSite description"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  Social: true
+
+  footer:
+    hideCopyright: false
+    hideVendorCopyright: true
+    
+  
+  hideFooter: false
+  hideFooterHome: false
+  hideFooterNav: false
+  
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  ShareButtons: ["linkedin", "twitter", "facebook", "reddit", "whatsapp", "telegram"] # To customize which share buttons to be enabled on page
+
+assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: ""
+    favicon16x16: ""
+    favicon32x32: ""
+    apple_touch_icon: ""
+    safari_pinned_tab: ""
+  
+label:
+    text: "Home"
+    icon: /logos/rubenstorm-500.png
+    iconHeight: 75
+
+# profile-mode
+profileMode:
+  enabled: false # needs to be explicitly set
+  # title: Ruben Storm
+  # subtitle: "This is subtitle"
+  imageUrl: "/images/logo.webp"
+  imageWidth: 120
+  imageHeight: 120
+  languages:
+    de:
+      title: "Rubens Blog"
+      subtitle: "Mein Leben davor - Der Anfang einer neuen Geschichte."
+      imageTitle: Mein Bild
+    en:
+      title: "Rubens Blog"
+      subtitle: "My Life Before - The Beginning of a New Story."
+      imageTitle: my image
+    
+  
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: paypal
+      url: "https://paypal.me/rubenstorm"
+    - name: bitcoin
+      url: "WALLET"
+    - name: github
+      url: "https://github.com/"
+    - name: x
+      url: "https://x.com/rubenstorm"
+    - name: youtube
+      url: "https://youtube.com"
+    - name: flickr
+      url: "FLICKR"
+    - name: instagram
+      url: "insta"
+
+ #  analytics:
+ #   google:
+ #     SiteVerificationTag: "XYZabc"
+ #   bing:
+ #     SiteVerificationTag: "XYZabc"
+ #   yandex:
+ #     SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  # editPost:
+  #  URL: "https://github.com/<path_to_repo>/content"
+  #  Text: "Suggest Changes" # edit text
+  #  appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+
+      
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+#menu:
+#  main: 
+#    - name: blog
+#      url: posts
+#      weight: 30
+#  buttons:
+#    - name: Blog
+#      url: posts
+#      weight: 10

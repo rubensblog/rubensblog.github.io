@@ -11,4 +11,8 @@ menu:
         weight: 50
         name: archive
 ---
+![][defHeaderImage]
 
+
+
+[defHeaderImage]: /images/header-archives.webp

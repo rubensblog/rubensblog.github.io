@@ -9,4 +9,9 @@ menu:
         name: vlog
 ---
 
+![][defHeaderImage]
+
+
+
+[defHeaderImage]: /images/header-vlog.webp
 

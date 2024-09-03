@@ -9,4 +9,9 @@ menu:
         name: recipes
 ---
 
+![][defHeaderImage]
+
+
+
+[defHeaderImage]: /images/header-food.webp
 

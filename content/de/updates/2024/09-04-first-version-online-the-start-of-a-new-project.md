@@ -13,7 +13,7 @@ comments: false
 disableShare: false
 disableHLJS: false # to enable|disable highlightjs - true|false
 hideSummary: false
-searchHidden: false # Hide or show in search
+searchHidden: true # Hide or show in search
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true

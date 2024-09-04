@@ -28,6 +28,19 @@
                 href="//localhost:1313/en/categories/2024/"
                 />
   </url><url>
+    <loc>//localhost:1313/en/categories/</loc>
+    <lastmod>2024-09-04T10:20:23+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="//localhost:1313/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="//localhost:1313/en/categories/"
+                />
+  </url><url>
     <loc>//localhost:1313/en/updates/2024/09-04-first-version-online-the-start-of-a-new-project/</loc>
     <lastmod>2024-09-04T10:20:23+03:00</lastmod>
     <xhtml:link
@@ -214,19 +227,6 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="//localhost:1313/en/archives/"
-                />
-  </url><url>
-    <loc>//localhost:1313/en/categories/</loc>
-    <lastmod>2024-09-02T00:09:26+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-DE"
-                href="//localhost:1313/de/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="//localhost:1313/en/categories/"
                 />
   </url>
 </urlset>

@@ -5,7 +5,7 @@ title: '{{ replace .File.ContentBaseName `-` ` ` | title }}'
 description: 'Desc Text.'
 tags: ['post']
 categories: ['blog']
-author: ''
+author: 'Ruben Storm'
 # author: ['Me', 'You'] # multiple authors
 showToc: true
 TocOpen: false

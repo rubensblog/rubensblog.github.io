@@ -7,6 +7,7 @@ tags: ['post','news']
 categories: ['blog']
 author: 'Ruben Storm'
 # author: ['Me', 'You'] # multiple authors
+languageCode: en
 showToc: false
 TocOpen: false
 hidemeta: false

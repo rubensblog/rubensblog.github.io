@@ -2,6 +2,132 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/de/</loc>
+    <lastmod>2024-09-04T10:46:31+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="//localhost:1313/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="//localhost:1313/de/"
+                />
+  </url><url>
+    <loc>//localhost:1313/de/categories/2024/</loc>
+    <lastmod>2024-09-04T10:20:23+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="//localhost:1313/en/categories/2024/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="//localhost:1313/de/categories/2024/"
+                />
+  </url><url>
+    <loc>//localhost:1313/de/categories/</loc>
+    <lastmod>2024-09-04T10:20:23+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="//localhost:1313/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="//localhost:1313/de/categories/"
+                />
+  </url><url>
+    <loc>//localhost:1313/de/updates/2024/09-04-first-version-online-the-start-of-a-new-project/</loc>
+    <lastmod>2024-09-04T10:20:23+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="//localhost:1313/en/updates/2024/09-04-first-version-online-the-start-of-a-new-project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="//localhost:1313/de/updates/2024/09-04-first-version-online-the-start-of-a-new-project/"
+                />
+  </url><url>
+    <loc>//localhost:1313/de/tags/git/</loc>
+    <lastmod>2024-09-04T10:20:23+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="//localhost:1313/en/tags/git/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="//localhost:1313/de/tags/git/"
+                />
+  </url><url>
+    <loc>//localhost:1313/de/categories/neues/</loc>
+    <lastmod>2024-09-04T10:20:23+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/de/tags/neuigkeiten/</loc>
+    <lastmod>2024-09-04T10:20:23+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/de/tags/projekt/</loc>
+    <lastmod>2024-09-04T10:20:23+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/de/tags/</loc>
+    <lastmod>2024-09-04T10:20:23+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="//localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="//localhost:1313/de/tags/"
+                />
+  </url><url>
+    <loc>//localhost:1313/de/tags/update/</loc>
+    <lastmod>2024-09-04T10:20:23+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="//localhost:1313/en/tags/update/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="//localhost:1313/de/tags/update/"
+                />
+  </url><url>
+    <loc>//localhost:1313/de/categories/update/</loc>
+    <lastmod>2024-09-04T10:20:23+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="//localhost:1313/en/categories/update/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="//localhost:1313/de/categories/update/"
+                />
+  </url><url>
+    <loc>//localhost:1313/de/updates/2024/</loc>
+    <lastmod>2024-09-04T09:45:52+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="//localhost:1313/en/updates/2024/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="//localhost:1313/de/updates/2024/"
+                />
+  </url><url>
     <loc>//localhost:1313/de/posts/</loc>
     <lastmod>2024-09-03T21:45:52+03:00</lastmod>
     <xhtml:link
@@ -26,19 +152,6 @@
                 rel="alternate"
                 hreflang="de-DE"
                 href="//localhost:1313/de/recipes/"
-                />
-  </url><url>
-    <loc>//localhost:1313/de/</loc>
-    <lastmod>2024-09-03T21:45:52+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="//localhost:1313/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-DE"
-                href="//localhost:1313/de/"
                 />
   </url><url>
     <loc>//localhost:1313/de/updates/</loc>
@@ -68,19 +181,6 @@
                 rel="alternate"
                 hreflang="de-DE"
                 href="//localhost:1313/de/categories/blog/"
-                />
-  </url><url>
-    <loc>//localhost:1313/de/categories/</loc>
-    <lastmod>2024-09-03T18:00:17+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="//localhost:1313/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-DE"
-                href="//localhost:1313/de/categories/"
                 />
   </url><url>
     <loc>//localhost:1313/de/posts/2024/first-post/</loc>
@@ -120,19 +220,6 @@
                 rel="alternate"
                 hreflang="de-DE"
                 href="//localhost:1313/de/tags/post/"
-                />
-  </url><url>
-    <loc>//localhost:1313/de/tags/</loc>
-    <lastmod>2024-09-03T18:00:17+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="//localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-DE"
-                href="//localhost:1313/de/tags/"
                 />
   </url><url>
     <loc>//localhost:1313/de/archives/</loc>

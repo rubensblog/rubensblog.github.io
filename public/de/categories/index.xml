@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- 0.134.0</generator>
     <language>de-DE</language>
-    <lastBuildDate>Tue, 03 Sep 2024 18:00:17 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 04 Sep 2024 10:20:23 +0300</lastBuildDate>
     <atom:link href="//localhost:1313/de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024</title>
+      <link>//localhost:1313/de/categories/2024/</link>
+      <pubDate>Wed, 04 Sep 2024 10:20:23 +0300</pubDate>
+      <guid>//localhost:1313/de/categories/2024/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neues</title>
+      <link>//localhost:1313/de/categories/neues/</link>
+      <pubDate>Wed, 04 Sep 2024 10:20:23 +0300</pubDate>
+      <guid>//localhost:1313/de/categories/neues/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Update</title>
+      <link>//localhost:1313/de/categories/update/</link>
+      <pubDate>Wed, 04 Sep 2024 10:20:23 +0300</pubDate>
+      <guid>//localhost:1313/de/categories/update/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Blog</title>
       <link>//localhost:1313/de/categories/blog/</link>

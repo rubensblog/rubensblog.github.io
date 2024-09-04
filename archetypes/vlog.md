@@ -20,9 +20,17 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
+cover:
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
 ---
 
 Text
+
+{{< youtube w7Ft2ymGmfc >}}
 
 ## Literatur
 *Hier habe ich ein paar Links zu Amazon mit Literatur zum Thema des Vlogs. Wenn du den Link verwendest, werde ich damit ein bisschen unterstützt. Der Link ist nur auf Amazon Deutschland verfügbar.*

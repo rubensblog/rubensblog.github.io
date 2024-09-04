@@ -1,15 +1,15 @@
-baseURL: ''
+baseURL: ""
 languageCode: en-us
 title: Ruben's Blog
 # theme: ["PaperMod"]
-theme: 'PaperMod'
+theme: "PaperMod"
 # theme: 'ananke'
 
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-# googleAnalytics: 
+# googleAnalytics:
 enableEmoji: true
 
 defaultContentLanguage: de
@@ -24,6 +24,10 @@ languages:
     params:
       subtitle: Mein Leben davor - Der Anfang einer neuen Geschichte.
     title: Ruben's Blog
+    pagination:
+      disableAliases: true
+      pagerSize: 10
+      path: page
     weight: 1
   en:
     contentDir: content/en
@@ -34,6 +38,10 @@ languages:
     params:
       subtitle: My Life Before - The Beginning of a New Story.
     title: Ruben's Blog
+    pagination:
+      disableAliases: true
+      pagerSize: 10
+      path: page
     weight: 2
 
 minify:
@@ -56,12 +64,11 @@ params:
   footer:
     hideCopyright: false
     hideVendorCopyright: true
-    
-  
+
   hideFooter: false
   hideFooterHome: false
   hideFooterNav: false
-  
+
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -77,21 +84,28 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
-  ShareButtons: ["linkedin", "twitter", "facebook", "reddit", "whatsapp", "telegram"] # To customize which share buttons to be enabled on page
+  ShareButtons: [
+      "linkedin",
+      "twitter",
+      "facebook",
+      "reddit",
+      "whatsapp",
+      "telegram",
+    ] # To customize which share buttons to be enabled on page
 
 assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: ""
-    favicon16x16: ""
-    favicon32x32: ""
-    apple_touch_icon: ""
-    safari_pinned_tab: ""
-  
+  # disableHLJS: true # to disable highlight.js
+  # disableFingerprinting: true
+  favicon: ""
+  favicon16x16: ""
+  favicon32x32: ""
+  apple_touch_icon: ""
+  safari_pinned_tab: ""
+
 label:
-    text: "Home"
-    icon: /logos/rubenstorm-500.png
-    iconHeight: 75
+  text: "Home"
+  icon: /logos/rubenstorm-500.png
+  iconHeight: 75
 
 # profile-mode
 profileMode:
@@ -110,8 +124,6 @@ profileMode:
       title: "Rubens Blog"
       subtitle: "My Life Before - The Beginning of a New Story."
       imageTitle: my image
-    
-  
 
   # home-info mode
   homeInfoParams:
@@ -134,13 +146,13 @@ profileMode:
     - name: instagram
       url: "insta"
 
- #  analytics:
- #   google:
- #     SiteVerificationTag: "XYZabc"
- #   bing:
- #     SiteVerificationTag: "XYZabc"
- #   yandex:
- #     SiteVerificationTag: "XYZabc"
+  #  analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
   cover:
     hidden: false # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
@@ -151,8 +163,8 @@ profileMode:
   #  Text: "Suggest Changes" # edit text
   #  appendFilePath: true # to append file path to Edit link
 
-  # for search
-  # https://fusejs.io/api/options.html
+ 
+params:
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -160,11 +172,9 @@ profileMode:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 
-
-      
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -177,7 +187,7 @@ markup:
     # style: monokai
 
 #menu:
-#  main: 
+#  main:
 #    - name: blog
 #      url: posts
 #      weight: 30
@@ -185,3 +195,9 @@ markup:
 #    - name: Blog
 #      url: posts
 #      weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search

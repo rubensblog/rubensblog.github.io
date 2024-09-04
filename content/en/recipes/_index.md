@@ -15,3 +15,8 @@ menu:
 
 [defHeaderImage]: /images/header-food.webp
 
+---
+
+## Latest Recipes
+
+

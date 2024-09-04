@@ -24,7 +24,7 @@ UseHugoToc: true
 
 ## Update: Zusammenstellung und Veröffentlichung von Beiträgen aus der Vergangenheit
 
-Hallo zusammen,
+Hallo zusammen, 
 
 ich freue mich, euch mitteilen zu können, dass ich mich entschlossen habe, alle meine bisherigen Beiträge zu sammeln und hier zu veröffentlichen. Um die ursprüngliche Authentizität zu bewahren, werde ich die Beiträge selbst überarbeiten, aber das originale Datum beibehalten. Falls mir das genaue Datum nicht bekannt ist, werde ich ein entsprechendes Datum festlegen.
 

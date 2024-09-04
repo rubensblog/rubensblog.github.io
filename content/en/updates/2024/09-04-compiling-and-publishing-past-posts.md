@@ -24,7 +24,7 @@ UseHugoToc: true
 
 ## Update: Compiling and Publishing Past Posts
 
-Hello everyone,
+Hello everyone, 
 
 I’m excited to share that I’ve decided to compile all my past posts and publish them here. To maintain their original authenticity, I’ll be revising the posts but keeping the original dates. If I don’t have the exact date, I’ll use an approximate one.
 

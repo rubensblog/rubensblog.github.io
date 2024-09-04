@@ -3,8 +3,10 @@ date: '{{ .Date }}'
 draft: true
 title: '{{ replace .File.ContentBaseName `-` ` ` | title }}'
 description: 'Desc Text.'
-tags: ['update']
-categories: ['update']
+tags: ['update', 'news']
+# tags: ['update', 'neuigkeiten']
+categories: ['update', '2024', 'news']
+# categories: ['update', '2024', 'neues'] 
 author: 'Ruben Storm'
 showToc: false
 TocOpen: false

@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://rubensblog.github.io/"
 languageCode: en-us
 title: Ruben's Blog
 # theme: ["PaperMod"]
@@ -11,6 +11,13 @@ buildFuture: false
 buildExpired: false
 # googleAnalytics:
 enableEmoji: true
+
+params:
+  mainSections:
+    - posts
+    - updates
+    - recipes
+
 
 defaultContentLanguage: de
 defaultContentLanguageInSubdir: true

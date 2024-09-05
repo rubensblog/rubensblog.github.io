@@ -1,9 +1,9 @@
 baseURL: "https://rubensblog.github.io/"
+# baseURL: "http://localhost:1313/"
 languageCode: en-us
 title: Ruben's Blog
 # theme: ["PaperMod"]
 theme: "PaperMod"
-# theme: 'ananke'
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -12,12 +12,9 @@ buildExpired: false
 # googleAnalytics:
 enableEmoji: true
 
-params:
-  mainSections:
-    - posts
-    - updates
-    - recipes
-
+minify:
+  disableXML: true
+  minifyOutput: true
 
 defaultContentLanguage: de
 defaultContentLanguageInSubdir: true
@@ -51,10 +48,6 @@ languages:
       path: page
     weight: 2
 
-minify:
-  disableXML: true
-  minifyOutput: true
-
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ExampleSite
@@ -68,13 +61,18 @@ params:
   disableThemeToggle: false
   Social: true
 
-  footer:
-    hideCopyright: false
-    hideVendorCopyright: true
+  mainSections:
+    - posts
+    - updates
+    - recipes
+    - vlog
 
+  # Footer
+  hideCopyright: false
+  hideVendorCopyright: true
   hideFooter: false
-  hideFooterHome: false
-  hideFooterNav: false
+  hideFooterHome: false # To be implemented
+  hideFooterNav: true
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -85,7 +83,7 @@ params:
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
-  disableScrollToTop: false
+  disableScrollToTop: true
   comments: false
   hidemeta: false
   hideSummary: false
@@ -99,79 +97,26 @@ params:
       "whatsapp",
       "telegram",
     ] # To customize which share buttons to be enabled on page
-
-assets:
-  # disableHLJS: true # to disable highlight.js
-  # disableFingerprinting: true
-  favicon: ""
-  favicon16x16: ""
-  favicon32x32: ""
-  apple_touch_icon: ""
-  safari_pinned_tab: ""
-
-label:
-  text: "Home"
-  icon: /logos/rubenstorm-500.png
-  iconHeight: 75
-
-# profile-mode
-profileMode:
-  enabled: false # needs to be explicitly set
-  # title: Ruben Storm
-  # subtitle: "This is subtitle"
-  imageUrl: "/images/logo.webp"
-  imageWidth: 120
-  imageHeight: 120
-  languages:
-    de:
-      title: "Rubens Blog"
-      subtitle: "Mein Leben davor - Der Anfang einer neuen Geschichte."
-      imageTitle: Mein Bild
-    en:
-      title: "Rubens Blog"
-      subtitle: "My Life Before - The Beginning of a New Story."
-      imageTitle: my image
-
+  label:
+    text: ""
+    # icon: /logos/rubenstorm-500.png
+    iconHeight: 75
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "favicon.png"
+    safari_pinned_tab: "favicon.svg"
   # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
-
-  socialIcons:
-    - name: paypal
-      url: "https://paypal.me/rubenstorm"
-    - name: bitcoin
-      url: "WALLET"
-    - name: github
-      url: "https://github.com/"
-    - name: x
-      url: "https://x.com/rubenstorm"
-    - name: youtube
-      url: "https://youtube.com"
-    - name: flickr
-      url: "FLICKR"
-    - name: instagram
-      url: "insta"
-
-  #  analytics:
-  #   google:
-  #     SiteVerificationTag: "XYZabc"
-  #   bing:
-  #     SiteVerificationTag: "XYZabc"
-  #   yandex:
-  #     SiteVerificationTag: "XYZabc"
+  # homeInfoParams:
+    # Title: "Hi there \U0001F44B"
+    # Content: Welcome to my blog
   cover:
     hidden: false # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: false # hide on single page
-
-  # editPost:
-  #  URL: "https://github.com/<path_to_repo>/content"
-  #  Text: "Suggest Changes" # edit text
-  #  appendFilePath: true # to append file path to Edit link
-
- 
-params:
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -181,6 +126,12 @@ params:
     minMatchCharLength: 0
     # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
+  outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON # necessary for search
+
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
@@ -193,18 +144,7 @@ markup:
     # lineNos: true
     # style: monokai
 
-#menu:
-#  main:
-#    - name: blog
-#      url: posts
-#      weight: 30
-#  buttons:
-#    - name: Blog
-#      url: posts
-#      weight: 10
 
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON # necessary for search
+
+
+

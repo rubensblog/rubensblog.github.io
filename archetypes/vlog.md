@@ -2,9 +2,9 @@
 date: '{{ .Date }}'
 draft: true
 title: '{{ replace .File.ContentBaseName `-` ` ` | title }}'
-description: 'Desc Text.'
-tags: ['vlog', 'video', 'youtube']
-categories: ['vlog', 'video']
+description: ''
+tags: ['vlog', 'video', 'youtube', 'reisevlog', 'reisen', 'europa',  'polen', 'warschau']
+categories: ['vlog', 'video', 'europa', 'polen']
 author: 'Ruben Storm'
 showToc: true
 TocOpen: false
@@ -21,7 +21,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<image path/url>" # image path/url
+    image: "" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
@@ -52,7 +52,7 @@ Text
 [LiteraturTwo]: http
 [LiteraturThree]: http
 
-[YoutubeKanal]: http
-[YoutubeVideo]: http
-[ImageGallery]: http
+[YoutubeKanal]: https://www.youtube.com/@RubenStormVlog
+[YoutubeVideo]: https://www.youtube.com/watch?v=
+[ImageGallery]: https://rubenstorm-foto.webspace.rocks/
 [LocationInformation]: http

@@ -1,5 +1,5 @@
-baseURL: "https://rubensblog.github.io/"
-# baseURL: "http://localhost:1313/"
+# baseURL: "https://rubensblog.github.io/"
+baseURL: "http://localhost:1313/"
 languageCode: en-us
 title: Ruben's Blog
 # theme: ["PaperMod"]
